@@ -739,6 +739,7 @@ footer {
 
 .soc-foot{
     display: flex;
+    padding-top: 20px;
 }
 
 .soc-foot a {
