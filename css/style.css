@@ -21,7 +21,7 @@
     transition: all 0.5s ease;
 }
 
-.header-line a:hover{
+.header-line a:hover {
     color: lightgrey;
 }
 
@@ -80,6 +80,10 @@ nav {
     font-family: "Open Sans";
 }
 
+.info p:hover {
+    text-decoration: underline;
+}
+
 #city {
     margin-left: 16.142857%;
 }
@@ -94,6 +98,10 @@ nav {
     text-align: center;
 }
 
+.info #mail:hover {
+    text-decoration: none;
+}
+
 .info #tel {
     padding-left: 164px;
     font-size: 13px;
@@ -102,6 +110,23 @@ nav {
     text-decoration: none;
     font-family: "Open Sans";
     text-align: center;
+}
+
+.info #tel:hover,
+.info #skype:hover {
+    text-decoration: underline;
+}
+
+.img1 img:hover,
+.img2 img:hover,
+.img3 img:hover {
+    transform: scale(1.15);
+}
+
+.img1 img,
+.img2 img,
+.img3 img {
+    transition: 0.5s;
 }
 
 .info #skype {
@@ -239,6 +264,7 @@ hr {
 .img3 {
     margin-right: 127px;
     width: 14%;
+    transition: all 0.5s ease;
 }
 
 h6 {
@@ -648,8 +674,14 @@ footer {
     font-family: "Roboto";
 }
 
+.block3 p>a::before {
+    content: url(../css/img/Fill.png);
+    padding-right: 10px;
+}
+
 .phone {
-    width: 60%;
+    display: block;
+    width: 80%;
     margin-top: 20px;
 }
 
@@ -660,6 +692,15 @@ footer {
     font-weight: 400;
     font-family: "Roboto";
     text-decoration: none;
+    margin-right: 10px;
+}
+
+.phone a:last-child {
+    margin-left: 24px;
+}
+
+.phone a:first-child::before {
+    content: url(../css/img/Layer\ 3.png);
 }
 
 .mail {
@@ -673,6 +714,11 @@ footer {
     color: #72b6ef;
     font-weight: 400;
     font-family: "Roboto";
+}
+
+.mail a:first-child::before {
+    content: url(../css/img/Layer\ 4\ \(1\).png);
+    padding-right: 10px;
 }
 
 .endline {
@@ -689,4 +735,33 @@ footer {
     color: #000000;
     font-weight: 400;
     font-family: "Open Sans";
+}
+
+.soc-foot{
+    display: flex;
+}
+
+.soc-foot a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #72b6ef;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    text-align: center;
+    align-items: center;
+}
+
+.soc-foot a:hover{
+    background-color: #3b688e;
+}
+
+.soc-foot a>img{
+    margin-top: 10px;
+}
+
+.soc-foot a:first-child>img{
+    margin-top: 13px;
 }
