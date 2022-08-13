@@ -255,14 +255,15 @@ hr {
 
 .img {
     display: flex;
-    margin-left: 30.9%;
+    width: 600px;
+    margin: 0 auto;
 
 }
 
 .img1,
 .img2,
 .img3 {
-    margin-right: 127px;
+    margin-right: 160px;
     width: 14%;
     transition: all 0.5s ease;
 }
@@ -293,6 +294,15 @@ h6 {
 
 .about {
     margin-left: -70px;
+    width: 240px;
+}
+
+.about2 {
+    width: 220px;
+}
+
+.about3{
+    width: 190px;
 }
 
 #hr {
@@ -320,7 +330,7 @@ h6 {
 }
 
 .about2 h6 {
-    margin-left: -35%;
+    margin-left: -50%;
 }
 
 .about3 h6 {
@@ -737,7 +747,7 @@ footer {
     font-family: "Open Sans";
 }
 
-.soc-foot{
+.soc-foot {
     display: flex;
     padding-top: 20px;
 }
@@ -755,14 +765,14 @@ footer {
     align-items: center;
 }
 
-.soc-foot a:hover{
+.soc-foot a:hover {
     background-color: #3b688e;
 }
 
-.soc-foot a>img{
+.soc-foot a>img {
     margin-top: 10px;
 }
 
-.soc-foot a:first-child>img{
+.soc-foot a:first-child>img {
     margin-top: 13px;
 }
